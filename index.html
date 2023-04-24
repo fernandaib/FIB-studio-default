@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Deliverables</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- Responsive website -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Styling with CSS -->
+        <link href="css/reset.css" rel="stylesheet" type="text/css"> 
+        
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Jost&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+       
+                     
+          
+        <!-- Styling with CSS -->
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        
+
+                             
+    </head>
+    
+    <body id="pageTop">
+     <nav>
+         <ul>
+             <li><a href="#section1">1</a></li>
+             <li><a href="#section2">2</a></li>
+             <li><a href="#section3">3</a></li>
+             <li><a href="#section4">4</a></li>
+             <li><a href="#section5">5</a></li>
+         </ul>
+     </nav>
+     
+     
+     <header>
+         <h1>F . I . B studio</h1>
+         <h2>Fernanda Idarraga-B.</h2>
+         <p>COMM 646: Front End Web Development 2</p>
+     </header>
+
+     <section id="section1" class="sectionA">
+        <div class="container">
+            <h1>Users</h1>
+            <p>Those who need:</p>
+            <dl>
+                <dt>Personal website</dt>
+                <dd>To establish their own personal brand; (e.g.),scientists, politics, celebrities. </dd>
+                
+
+                <dt>Portfolio websites</dt>
+                <dd>To showcase their professional work with the goal of winning clients; (e.g.), architectures, artists, photographers.</dd>
+                
+                <dt>Small business websites</dt>
+                <dd>To have an online presence so people can learn about a company, its employees, products, services, and culture; (e.g.),Labs, local accounting firms, service providers (plumbers, HVAC, etc.), restaurants, and law offices.</dd>
+                
+                <dt>Blog websites</dt>
+                <dd> To regularly update with relevant articles, videos, and photos meant to inform, entertain, and educate your audience; (e.g.), fashion bloggers, travel influencers.</dd>
+                                
+            </dl>
+        </div>
+        <div class="examples">
+            <div class="image"><a href="http://www.schwarzenegger.com/" target="_blank"><img src="images/imageA.jpg" alt="actor"></a></div>
+            <div class="image"><a href="http://www.verawang.com" target="_blank"><img src="images/imageB.jpg" alt="designer"></a></div>
+            <div class="image"><a href="https://fogodechao.com/" target="_blank"><img src="images/imageC.jpg" alt="restaurant"></a></div>
+            <div class="image"><a href="https://iamafoodblog.com/" target="_blank"><img src="images/imageD.jpg" alt="blogger"></a></div>
+        </div>
+        
+
+     </section>
+
+     <section id="section2" class="sectionA">
+        <div class="container">
+            <h1>Goals</h1>
+             <ul>
+                <li>2023 - 2024: To run my own FEWD business as a freelancer</li>
+                
+                <li>2025: To run my own FULL STACK business</li>
+                
+                <li>2026: To develop E-Commerce websites</li>
+             </ul>
+        </div>
+        <div class="examples">
+            <div class="image"><img src="images/imageE.jpg" alt="computer"></div>
+            <div class="image"><img src="images/imageF.jpg" alt="shopping"></div>            
+        </div>
+        
+     </section>
+
+     <section id="section3" class="sectionA">
+        <div class="container">
+            <h1>Assets</h1>
+            <ul>
+                <li>Knowledge of HTML, CSS, JS</li>
+                
+                <li>Computer, Adobe Suscription.</li>
+                
+                <li>Languages: English and Spanish</li>
+            </ul>
+        </div>
+        <div class="examples">
+            <div class="image"><img src="images/imageG.jpg" alt="fewd"></div>
+            <div class="image"><img src="images/imageH.jpg" alt="adobe"></div>  
+            <div class="image"><img src="images/imageI.jpg" alt="languages"></div>          
+        </div>
+        
+    </section>
+
+    <section id="section4" class="sectionA">
+        <div class="container">
+            <h1>Strengths &amp; Weaknesses</h1>
+            <p>Strengths:</p>
+            <ul>
+                <li>Skilled in HTML, CSS, JS.</li>
+                <li>Bilingual: English and Spanish.</li>
+                <li>Problem Solving.</li>
+            </ul>
+            <br>
+            <p>Weaknesses:</p>
+            <ul>
+                <li>Back-End development unknowledge.</li>
+                <li>Teamwork</li>
+                <li>Frameworks such as WordPress (E-Commerce development) unknowledge.</li>
+            </ul>
+        </div>
+        <div class="examples">
+            <div class="image"><img src="images/imageJ.jpg" alt="eagle"></div>
+            <div class="image"><img src="images/imageK.jpg" alt="egg"></div>  
+                    
+        </div>
+       
+   </section>
+
+   <section id="section5">
+    <h1>Elevator Pitch</h1>
+    <p>F.I.B. studio is a freelance business which offers service of website creation (Front End Development) for whose that want to belong to internet and not depent of others.</p>
+    </section>
+    
+    <footer><a href="#pageTop" class="top"><span class="narrow"><i class="fa-regular fa-circle-up"></i></span></a></footer>
+    
+            
+            <script src="scripts/jquery-3.6.3.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $('.top').hide();
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>200){
+                    //perform this if true
+                        $('.top').fadeIn();
+                    } else{
+                    //perform this if not true (or false)
+                        $('.top').fadeOut();
+                    }
+                });
+            });
+            </script> 
+
+    </body>
+
+
+</html>
